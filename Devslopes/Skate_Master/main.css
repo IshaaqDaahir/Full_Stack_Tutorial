@@ -1,0 +1,101 @@
+/* ##### Navbar ##### */
+
+
+/* ##### Section One ##### */
+.jumbotron {
+    text-align: center;
+}
+
+.sectionLight {
+    background-color: #eceeef;
+    padding: 2rem;
+}
+
+
+/* ##### Section Two ##### */
+.sectionDark {
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+.allheight {
+    height: 100%;
+    margin-top: .5rem;
+}
+
+.coolStuffWrapper {
+    margin-top: 45px;
+}
+
+button.coolStuffBtn {
+    background-color: red;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+button.coolStuffBtn:hover {
+    background-color: rgb(179, 9, 9);
+    color: white;
+}
+
+
+/* ##### Section Three ##### */
+.imgCenter {
+    display: block;
+    margin: auto;
+}
+
+.btnCenter {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 73%;
+}
+
+
+/* ##### Footer ##### */
+.size {
+    width: 300px;
+    height: 100px;
+}
+
+.footerImg {
+    padding: 15px;
+}
+
+.fa-square-facebook {
+    color: #3b5998;
+}
+
+.fa-square-google-plus {
+    color: #c32f10;
+}
+
+.fa-instagram {
+    color: #bc2a8d;
+}
+
+.fa-brands {
+    margin: 10px;
+}
+
+.socialWrapper {
+    margin: auto;
+}
+    
+
+/* ##### Modals ##### */
+.modalImgheight {
+    max-height: 85%;
+    width: 100%;
+}
+
+h1.modal-title {
+    margin-left: 8rem;
+}
+
+.modalFormWrapper {
+    padding: 2rem;
+}

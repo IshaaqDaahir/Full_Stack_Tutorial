@@ -1,0 +1,31 @@
+@use '../variables' as v
+@use '../mixins' as m
+    
+.btn
+    display: inline-block
+    font-weight: v.$font-weight-normal
+    line-height: v.$base-line-height
+    text-align: center
+    font-size: v.$font-base
+    vertical-align: middle
+    border: v.$border-width solid transparent
+    transition: v.$btn-transition
+    border-radius: v.$border-radius 
+    @include m.default-btn-sizing()
+
+.buy-btn-lg
+    @include m.btn-sizing($btn-padding-y: 12px, $btn-padding-x: 35px, $font-size: v.$font-large, $border-radius: 30px)
+    width: 100%
+
+.buy-btn-md
+    @include m.btn-sizing($btn-padding-y: 15px, $btn-padding-x: 50px, $font-size: v.$font-base, $border-radius: 30px)
+    
+.btn-dark
+    @include m.btn-variant($color: v.$btn-main-color, $background: #9097a5, $border: v.$btn-border-dark)
+
+.btn-primary
+    @include m.btn-variant($color: v.$btn-main-color, $background: v.$btn-primary-bg, $border: v.$btn-border-primary)
+
+.btn-third
+    @include m.btn-variant($color: v.$btn-main-color, $background: v.$btn-third-bg, $border: v.$btn-border-third)
+    

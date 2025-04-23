@@ -1,0 +1,16 @@
+@use '../variables' as variable
+@use '../mixins' as m
+
+    
+.pro-img
+    @include m.border($shadow: 0 0 15px #555, $border: 1px solid variable.$brand-primary)
+    @include m.border-rad($rad: 5px)
+
+    background-color: variable.$brand-primary
+    width: 22%
+    height: 120px
+    display: inline-block
+    // float: left
+    margin: 15px
+
+    

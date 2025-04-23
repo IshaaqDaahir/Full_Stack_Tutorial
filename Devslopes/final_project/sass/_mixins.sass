@@ -1,0 +1,24 @@
+@use 'variables' as v
+    
+=btn-variant($color, $background, $border)
+    $active-background: adjust($background, -10%)
+    $active-border: adjust($border, -10%)
+
+    color:              $color
+    background-color: $background
+    border-color: $border
+    &:hover
+        color: $color
+        background-color: $active-background
+        border-color: $active-border
+
+=btn-sizing($btn-padding-y, $btn-padding-x, $font-size, $border-radius)
+    padding: $btn-padding-y $btn-padding-x
+    font-size: $font-size
+    border-radius: $border-radius
+
+=default-btn-sizing()
+    padding: v.$btn-padding-y v.$btn-padding-x
+    font-size: v.$font-base
+    border-radius: v.$border-radius
+

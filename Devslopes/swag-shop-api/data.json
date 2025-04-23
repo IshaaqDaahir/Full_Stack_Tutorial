@@ -1,0 +1,3 @@
+db.products.insertOne({"price": 40.99, "title": "Vault Boy Bobble Head", "imgUrl": "https://s3-us-west-2.amazonaws.com/devslopesvideo/vault.jpg"})
+db.products.insertOne({"price": 129.50, "title": "Link's Shield", "imgUrl": "https://s3-us-west-2.amazonaws.com/devslopesvideo/shield.png"})
+db.products.insertOne({"price": 400, "title": "Lancer", "imgUrl": "https://s3-us-west-2.amazonaws.com/devslopesvideo/lancer.jpg"})
