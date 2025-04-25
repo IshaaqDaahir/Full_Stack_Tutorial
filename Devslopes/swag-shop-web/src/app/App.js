@@ -19,7 +19,7 @@ class App extends Component {
 
     // Bind fuctions
     this.loadData = this.loadData.bind(this);
-	this.productList = this.productList.bind(this);
+	  this.productList = this.productList.bind(this);
 
     this.loadData();
   }
